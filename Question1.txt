@@ -1,0 +1,25 @@
+1.	Write a blog on the difference between document and window objects
+
+Document Objects :
+-> The web page loaded in the browser is known as the document and it is object of the window.
+-> The document can be accessed through the window by (window.document) or (document.) .
+-> The document is a part Browser Object Model (BOM) and Document Object Model (DOM).
+-> The properties and methods of the document can accessed.
+-> Syntax :
+    document.property_name;
+    document.method_name;
+-> Some examples of the properties are body, cookie, URL, title, head etc.,
+-> Some examples of the methods are createAttribute(), close(), getElementbyId(), normalize(), write().
+
+Window Objects :
+-> The window display's the content of the webpage frame or browser window.
+-> The window object is created whenever the window appears to display the webpage contents.
+-> The window object is the topmost of the Document Object Model hierarchy.
+-> The window can be accessed by window.window only.
+-> The window is part of Browser Object Model (BOM).
+-> The properties and methods of the window can accessed. 
+-> Syntax :
+    window.property_name;
+    window.method_name;
+-> Some examples of the properties are Closed, console, controllers, Document etc.,
+-> Some examples of the methods are alert(), blur(), close(), confirm() etc.,
